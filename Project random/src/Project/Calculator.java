@@ -35,6 +35,7 @@ class Calculator {
         System.out.println("enter the operator: ");
         c=input.next().charAt(0);
         solver(a,b,c,d);
+        System.out.println(" ");
         input.close();
     }
 }
